@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Responsive</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="img/Logo.png" alt="" class="logo">
+        </a>
+        <ul id="mobilemenu">
+            <li class="fa fa-male"  aria-hidden="true"><a href="#about-me">Sobre mi</a></li>
+            <li class="fa fa-list-ul" aria-hidden="true"><a href="#skills">Skills</a></li>
+            <li class="fa fa-graduation-cap" aria-hidden="true"><a href="#hobbies">Hobbies</a></li>
+            <li class="fa fa-graduation-cap" aria-hidden="true"><a href="#education">Formación</a></li>
+            <li class="fa fa-th-large" aria-hidden="true"><a href="#projects">Proyectos</a></li>
+            <li class="fa fa-envelope" aria-hidden="true"><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <section class="main-container">
+        <!--- Introduccion -->
+        <div class="introduction-container">
+            <div class="introduction-text">
+                <h1>Hola, mi nombre es Michael y construyo páginas web</h1>
+                <p>
+                    Soy un desarrollador web con experiencia en HTML, CSS, JavaScript, Vue, Python, Django,
+                    Git, GitHub, y muchas otras herramientas.
+                </p>
+                <ul>
+                <li><a href="https://github.com/mghernandezcastillo" target="blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/michael-hernandez-castillo/" target="blank">Linkedin</a></li>
+                </ul>
+            </div>
+            <div class="introduction-img">
+                <img src="img/foto.jpg" alt="">
+            </div>
+        </div>
+        <!--- Sobre mi -->
+        <section class="about-me" id="about-me">
+                <div class="about-me-img">
+                <div class="about-me-text">
+                    <h2 class="title">Sobre mí</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati quis eius aperiam odit, quaerat aspernatur consequatur, atque suscipit laudantium nam, asperiores iste reprehenderit? Sequi perferendis debitis explicabo impedit possimus!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis officia animi nemo alias nulla maiores id, fuga quia inventore. Mollitia dolores labore facere at recusandae odit nam provident voluptas laudantium.
+                    </p>
+                </div>
+        </section>
+        <!--- Skills -->
+        <section class="skills-hobbies-container" id="skills">
+            <h2 class="title">Skills</h2>
+            <div class="items-container">
+                <!-- skill 1 -->
+                <div class="skill-hobbie-item">
+                    
+                    <div class="skill-img">
+                        <img src="img/html.png" alt="">
+                        <h3>HTML 5</h3>
+                    </div>
+                </div>
+                <!--- skill 2 -->
+                <div class="skill-hobbie-item">
+                    <div class="skill-img">
+                        <img src="img/css.png" alt="">
+                        <h3>CSS 3</h3>
+                    </div>
+                </div>
+                <!--- skill 3 -->
+                <div class="skill-hobbie-item">
+                    <div class="skill-img">
+                        <img src="img/javascript.png" alt="">
+                        <h3>JAVASCRIPT</h3>
+                    </div>
+                </div>
+                <!--- skill 4 -->
+                <div class="skill-hobbie-item">
+                    <div class="skill-img">
+                        <img src="img/vue.png" alt="">
+                        <h3>VUE JS</h3>
+                    </div>
+                </div>
+                <!--- skill 5 -->
+                <div class="skill-hobbie-item">
+                    <div class="skill-img">
+                        <img src="img/python.png" alt="">
+                        <h3>PYTHON</h3>
+                    </div>
+                </div>
+                <!--- skill 6 -->
+                <div class="skill-hobbie-item">
+                    <div class="skill-img">
+                        <img src="img/django.png" alt="">
+                        <h3>DJANGO</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--- Hobbies -->
+        <section class="skills-hobbies-container" id="hobbies">
+            <h2 class="title">Hobbies</h2>
+            <div class="items-container">
+                <!--- Hobbie 1 -->
+                <div class="skill-hobbie-item">
+                    <div class="hobbie-img">
+                        <img src="img/guitarra.png" alt="">
+                        <h3>Tocar Guitarra</h3>
+                    </div>
+                </div>
+                <!--- Hobbie 2 -->
+                <div class="skill-hobbie-item">
+                    <div class="hobbie-img">
+                        <img src="img/cine.png" alt="">
+                        <h3>Ir AL Cine</h3>
+                    </div>
+                </div>
+                <!--- Hobbie 3 -->
+                <div class="skill-hobbie-item">
+                    <div class="hobbie-img">
+                        <img src="img/musica.webp" alt="">
+                        <h3>Oir Música</h3>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <!--- Formación -->
+        <section class="education-container" id="education">
+            <h2 class="title">Formación</h2>
+            <div class="items-container mobileitems">
+                <!--- Formación 1 -->
+                <div class="education-item">
+                    <div class="education-img">
+                        <img src="img/unal.png" alt="">
+                        <h3>Diplomado Habilidades de programación</h3>
+                    </div>
+                </div>
+                <!--- Formación 2 -->
+                <div class="education-item">
+                    <div class="education-img">
+                        <img src="img/unad.png" alt="">
+                        <h3>Administración de Empresas</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--- Proyectos -->
+        <section class="projects-container" id="projects">
+            <h2 class="title">Proyectos</h2>
+            <div class="items-container projects mobileitems">
+                <!--- Proyecto 1 -->
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="img/proyecto1.png" alt="">
+                    </div>
+                    <div class="project-description">
+                        <h3 class="title project-title">Encriptador de Texto</h3>
+                        <p>Challenge 1 Oracle</p>
+                        <input type="button" value="Repositorio"
+                        onclick="window.open('https://github.com/mghernandezcastillo/Encription-Text-Tool-With-Javascript')">
+                        <input type="button" value="Ver demo" class="demo" onclick="window.open('https://mghernandezcastillo.github.io/Encription-Text-Tool-With-Javascript/')">
+                    </div>
+                </div>
+                <!--- Proyecto 2 -->
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="img/proyecto2.png" alt="">
+                    </div>
+                    <div class="project-description">
+                        <h3 class="title project-title">Juego El Ahorcado</h3>
+                        <p>Challenge 2 Oracle</p>
+                        <input type="button" value="Repositorio"
+                        onclick="window.open('https://github.com/mghernandezcastillo/Challenge2-juegoahorcado')">
+                        <input type="button" value="Ver demo" class="demo" onclick="window.open('https://mghernandezcastillo.github.io/Challenge2-juegoahorcado/')">
+            </div>
+        </section>
+
+        <!--- Contact Form -->
+        <section class="contact-form-container" id="contact">
+            <div class="contact-form">
+                <div class="contact-img">
+                    
+                    <img src="img/contact.png" alt="">
+                </div>
+                <form action="index.php" method="POST">
+                    <h2 class="title">Contacto</h2>
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="subject" placeholder="Asunto" required>
+                    <textarea name="message" placeholder="Mensaje" required></textarea>
+                    <input type="submit" value="Enviar" style="background-color: #2A7AE4; color: white;">
+                </form>
+            </div>
+        </section>
+        
+    </section>
+
+        <!-- Footer with my name -->
+        <footer>
+            <p>
+              &copy;<a href="https://www.linkedin.com/in/michael-hernandez-castillo/"
+                >Michael Gerardo Hernández</a
+              >
+            </p>
+          </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
